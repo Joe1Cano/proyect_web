@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+
+
+
+
+.perfil {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD3E7;
+}
+
+.form {
+    width: calc(60%);
+    max-width: 700px;
+}
+
+.perfil form {
+    height: 500px;
+    width: auto;
+    border-radius: 5px;
+    color: #f2cee2;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+}
+
+#perfilimg {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    background-color: #FFD3E7;
+    position: relative;
+    top: 30%;
+    z-index: 1;
+}
+
+.formcont {
+    position: sticky;
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+}
+
+.cont .txt {
+    width: 50%;
+    display: flex;
+    
+    align-items: center;
+}
+
+.cont .txtbox {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #f2cee2;
+    background-color: transparent;
+    color: #f2cee2;
+    outline: none;
+    min-width: 144px;
+}
+
+input[type=text]:focus {
+    box-shadow: 2px solid #f2cee2;
+}
+
+input[type=email] {
+    border: none;
+    border-bottom: 2px solid #f2cee2;
+    background-color: transparent;
+    color: #f2cee2;
+    outline: none;
+    min-width: 144px;
+}
+
+input[type=email]:focus {
+    box-shadow: 2px solid #f2cee2;
+}
+
+.btnform {
+    margin: 10px;
+    height: 70px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnform #btnicon {
+    background-color: transparent;
+    border: 0px #000000;
+    padding: 10px;
+    color: #FFD3E7;
+}
+
+#confirm i:hover {
+    color: #00ffff;
+}
+
+#imgbtn i:hover {
+    color: #00ffff;
+}
+
+#cancel i:hover {
+    color: #fc2929;
+}
+
+#btnicon i {
+    color: #FFD3E7;
+    font-size: 40px;
+}
+
+button {
+    background-color: transparent;
+    border: 0px;
+}
+
+#imgbtn i {
+    font-size: 40px;
+}
+
+.imgicon {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}

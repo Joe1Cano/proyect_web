@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+
+
+.contenedor{
+    position: absolute;
+    left: 200px;
+    width: calc(100% - 200px);
+    height: 100%;
+    background-color: #ffc6e0;
+}
+
+.listas {
+    position: relative;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 700px;
+    box-sizing: border-box;
+    overflow: auto;
+    background-color: #FFD3E7;
+    border-radius: 25px;
+}
+
+.fila {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.carta {
+    width: 150px;
+    height: 200px;
+    background-color: #33333356;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.carta #imgcard {
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    /*box-shadow:  inset 0px -10px #00ffff;*/
+    border: solid 5px #FFD3E7;
+}
+
+.carta #textcard {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.carta:hover {
+    background-color: #97979756;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.carta:hover #imgcard {
+    /* box-shadow:  inset 0px -10px #000000; */
+    border: solid 5px #333;
+}
+
+.carta:hover #textcard {
+    color: black;
+    font-weight: bolder;
+    text-decoration: underline black;
+}
+
+a i {
+    font-size: 40px;
+    color: #333;
+}
+
+a i:hover {
+    color: #00ffff;
+}
